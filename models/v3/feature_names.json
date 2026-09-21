@@ -1,0 +1,21 @@
+[
+    "order_count_180d",
+    "revenue_180d",
+    "payment_value_180d",
+    "freight_value_180d",
+    "item_count_180d",
+    "avg_payment_type_count_180d",
+    "avg_installments_180d",
+    "avg_review_score_180d",
+    "review_count_180d",
+    "avg_delivery_delay_180d",
+    "late_delivery_rate_180d",
+    "unique_products_180d",
+    "unique_categories_180d",
+    "unique_sellers_180d",
+    "recency_days",
+    "customer_lifetime_days",
+    "avg_order_value_180d",
+    "orders_per_month_180d",
+    "revenue_per_month_180d"
+]

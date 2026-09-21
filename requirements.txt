@@ -1,0 +1,14 @@
+pandas==3.0.6
+numpy==2.5.3
+pyarrow==25.0.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0
+shap==0.52.0
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32
+pydantic==2.13.5
+streamlit==1.64.0
+plotly==7.1.0
+requests==2.34.2

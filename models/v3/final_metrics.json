@@ -1,0 +1,19 @@
+{
+    "champion_model": "logistic_regression",
+    "threshold": 0.01,
+    "test_pr_auc": 0.9939818052281859,
+    "test_roc_auc": 0.5915318000974723,
+    "test_precision": 0.9925163965028224,
+    "test_recall": 0.9999607013131375,
+    "test_f1": 0.9962246421799755,
+    "confusion_matrix": [
+        [
+            6,
+            1343
+        ],
+        [
+            7,
+            178116
+        ]
+    ]
+}
