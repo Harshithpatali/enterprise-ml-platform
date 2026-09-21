@@ -193,7 +193,7 @@ if uploaded_file is not None:
             ):
 
                 response = requests.post(
-                    API_URL,
+                    BATCH_PREDICT_URL,
                     files=files,
                     timeout=120,
                 )
