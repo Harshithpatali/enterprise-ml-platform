@@ -9,7 +9,8 @@ import plotly.graph_objects as go
 # CONFIG
 # ============================================================
 
-API_URL = "http://localhost:8000/predict"
+API_BASE_URL = os.getenv("API_URL", "http://localhost:8000")
+PREDICT_URL = f"{API_BASE_URL.rstrip('/')}/predict"
 
 st.set_page_config(
     page_title="Customer Risk",
