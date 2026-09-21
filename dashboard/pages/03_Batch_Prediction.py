@@ -10,7 +10,8 @@ import streamlit as st
 # CONFIG
 # ============================================================
 
-API_URL = "http://localhost:8000/predict/batch"
+API_BASE_URL = os.getenv("API_URL", "http://localhost:8000")
+BATCH_PREDICT_URL = f"{API_BASE_URL.rstrip('/')}/predict/batch"
 
 st.set_page_config(
     page_title="Batch Prediction",
