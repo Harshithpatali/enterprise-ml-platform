@@ -229,7 +229,7 @@ if predict_button:
         with st.spinner("Calling churn prediction API..."):
 
             response = requests.post(
-                API_URL,
+                PREDICT_URL,
                 json=payload,
                 timeout=30,
             )
