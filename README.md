@@ -24,7 +24,7 @@
 Bronze/Silver/Gold layers into a temporal customer-level dataset, then into an XGBoost prediction
 service and a Streamlit MLOps dashboard.*
 
-**Live:** 🌐 [Streamlit Dashboard](https://YOUR-APP-NAME.streamlit.app) · ⚡ [FastAPI](https://enterprise-ml-platform.onrender.com) · 📚 [API Docs](https://enterprise-ml-platform.onrender.com/docs)
+**API:** [FastAPI service](https://enterprise-ml-platform.onrender.com) · [API documentation](https://enterprise-ml-platform.onrender.com/docs)  \n**Dashboard:** Run locally using the setup instructions below; no public dashboard URL is currently published.
 
 </div>
 
