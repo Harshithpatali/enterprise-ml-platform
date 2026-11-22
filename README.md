@@ -797,3 +797,19 @@ Repository: <https://github.com/Harshithpatali/enterprise-ml-platform>
 This is a portfolio / engineering project based on the public Olist Brazilian E-Commerce dataset.
 Model metrics are dataset-specific and should not be interpreted as production performance without
 validation on representative business data.
+
+ 
+## Model card and evaluation caveats
+
+See [Model Card](docs/MODEL_CARD.md) for intended use, target definition, temporal design, reported metrics and limitations. The reported test results must always be presented with the approximately 96.1% churn prevalence and the trivial always-churn baseline. The minority retained-customer results are more informative than headline F1 alone.
+
+## Reproducibility
+
+```bash
+pip install -r requirements-dev.txt
+pytest -q tests/
+uvicorn api.main:app --reload
+streamlit run dashboard/app.py
+```
+
+Follow the Hadoop/HDFS and PySpark setup instructions earlier in this README before rebuilding the full data pipeline. Do not commit raw source data, credentials, or local Spark state.
