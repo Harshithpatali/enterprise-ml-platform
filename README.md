@@ -813,3 +813,8 @@ streamlit run dashboard/app.py
 ```
 
 Follow the Hadoop/HDFS and PySpark setup instructions earlier in this README before rebuilding the full data pipeline. Do not commit raw source data, credentials, or local Spark state.
+
+
+## Reproducible experiment and baseline audit
+
+See [Portfolio Experiment Report](docs/PORTFOLIO_EXPERIMENT_REPORT.md) for the model-version artifact reconciliation, high-prevalence baseline audit, reproducible test commands and recommended next validation. Report model metrics with class prevalence and trivial-baseline performance; the current artifacts do not establish incremental retention value.
